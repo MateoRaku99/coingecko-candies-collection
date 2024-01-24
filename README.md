@@ -1,0 +1,1 @@
+# coingecko-candies-collection
