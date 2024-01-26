@@ -1,3 +1,5 @@
 pytest==7.2.1
 undetected-chromdriver==3.5.4
 decorator==5.1.1
+PyYAML==6.0.1
+
