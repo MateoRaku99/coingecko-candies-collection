@@ -1,5 +1,5 @@
 from datetime import datetime
-from myConfig import SCREENSHOT_PATH
+from config import config
 import decorator
 import os
 
@@ -40,7 +40,7 @@ def decorator_screenshot(func):
         try:
             func(*args, **kwargs)
         except Exception:
-            get_screenshot(args[0], SCREENSHOT_PATH)
+            get_screenshot(args[0], config.screenshot_path)
             raise
 
     return decorator.decorator(wrapper, func)

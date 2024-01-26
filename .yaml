@@ -1,0 +1,10 @@
+users:
+    - email: "email1@gmail.com"
+      password: "password1"
+    - email: "email2@gmail.com"
+      password: "password2"
+sender_email: "sender@gmail.com"
+sender_email_password: "sender_app_password"
+receiver_email: "receiver@gmail.com"
+ 
+screenshot_path: "path/to/screenshot"
